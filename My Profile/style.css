@@ -1,0 +1,142 @@
+ @font-face {
+     font-family: "Heebo", sans-serif;
+     src: url("fonts/Heebo-VariableFont_wght.ttf");
+ }
+
+ * {
+     font-family: "Heebo", sans-serif;
+ }
+
+ .container {
+     margin: 30px auto;
+     display: flex;
+
+ }
+
+ .container1 {
+     background-color: #f3f3f3;
+     padding: 50px;
+ }
+
+ .container2 {
+     background: #cfd8e3;
+     padding: 70px;
+ }
+
+ .container1 img {
+     float: unset !important;
+     position: relative;
+     left: 50%;
+     transform: translateX(-50%);
+     border-radius: 50%;
+     margin-bottom: 50px;
+ }
+
+ .contact i {
+     color: cadetblue;
+ }
+
+ .language {
+     display: flex;
+ }
+
+ .language1 {
+     width: 250px;
+     height: 10px;
+     margin-left: 20px;
+     margin-top: 6px;
+     border-radius: 6px;
+     background-color: #cfd8e3;
+ }
+
+ .language2 {
+     width: 200px;
+     height: 10px;
+     margin-left: 20px;
+     margin-top: 30px;
+     border-radius: 6px;
+     background-color: #cfd8e3;
+ }
+
+ .language3 {
+     width: 150px;
+     height: 10px;
+     margin-left: 20px;
+     margin-top: 30px;
+     border-radius: 6px;
+     background-color: #cfd8e3;
+ }
+
+ .skill {
+     margin-left: 50px;
+ }
+
+ .interest {
+     margin-top: 6px;
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     gap: 40px 60px;
+     justify-items: center;
+ }
+
+ .interest i {
+     font-size: 40px;
+ }
+
+ .headline {
+     margin-top: 50px;
+ }
+
+ .education {
+     background-color: white;
+     height: 50px;
+     width: 425px;
+     margin-top: 40px;
+ }
+
+ .edu {
+     margin-top: 10px;
+ }
+
+ .education h3 {
+     padding: 10px;
+ }
+
+ .experience {
+     background-color: white;
+     height: 50px;
+     width: 450px;
+     margin-top: 40px;
+ }
+
+ .experience h3 {
+     padding: 10px;
+ }
+
+ .volunteer {
+     background-color: white;
+     height: 50px;
+     width: 425px;
+     margin-top: 40px;
+ }
+
+ .volunteer h3 {
+     padding: 10px;
+ }
+
+ .university {
+     display: flex;
+ }
+
+ .year {
+     margin-left: 6px;
+     color: #a7a3a3;
+ }
+
+ .subject {
+     margin-left: 30px;
+ }
+
+ .edu2 {
+     margin-top: 30px;
+ }

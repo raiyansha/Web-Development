@@ -1,0 +1,125 @@
+/* font-family: "Raleway", sans-serif;
+font-family: "IBM Plex Mono", monospace; */
+
+body {
+    margin: 0;
+}
+
+section {
+    background: #080808;
+    padding-bottom: 40px;
+}
+
+header {
+    background: #1B1B1B;
+    width: 1110px;
+    height: 70px;
+    margin: 0 auto;
+    border-radius: 0px 0px 8px 8px;
+}
+
+header ul.menu {
+    list-style: none;
+    padding: 0;
+    width: 920px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    line-height: 56px;
+}
+
+header ul li {
+    display: inline-block;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: #9C9C9C;
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 14px;
+}
+
+.social-icons li {
+    margin: 0px 3px;
+}
+
+.main {
+    width: 920px;
+    padding: 80px 0px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.main img {
+    border-radius: 36%;
+}
+
+.main h1 {
+    color: #fff;
+    font-family: "Raleway", sans-serif;
+    font-size: 44px;
+    font-weight: 800;
+}
+
+.hero-content p {
+    color: #9C9C9C;
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.hero-content a {
+    background: #3F8E00;
+    color: #fff;
+    padding: 21px 64px;
+    text-decoration: none;
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 700;
+    border: 1px solid #62BA1B;
+    border-radius: 4px;
+    margin-top: 30px;
+    display: inline-block; 
+    transition: 300ms;
+}
+
+.hero-content a:hover {
+    box-shadow: 0px 4px 9px 3px #62ba1b70;
+}
+
+.hero-content a i {
+    font-size: 11px;
+}
+
+.hero-content {
+    padding-right: 70px;
+}
+
+.brand {
+    width: 920px;
+    margin: 0 auto;
+}
+
+.brand p {
+    color: #fff;
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 14px;
+}
+
+.brand-item {
+    border: 1px solid #1B1B1B;
+    height: 60px;
+    width: 160px;
+    border-radius: 4px;
+}
+
+.brand>div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.brand-item img {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
